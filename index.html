@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <h1 class="text-center my-2">Text to JSON</h1>
+      <div class="container d-flex">
+        <textarea id="text">
+startDate:09/12/2019
+endDate:09/13/2019
+startTime:02:00PM
+endTime:11:59:59 pm
+reportType:summary
+idList:[{{locationId}}]
+idKeyType:locations
+partTimeStart:04:00
+partTimeEnd:06:00:00PM
+				</textarea
+        >
+        <div id="data"></div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

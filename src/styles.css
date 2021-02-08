@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+#text {
+  min-height: 80vh;
+  width: 45vw;
+}
+
+#data {
+  height: 80vh;
+  width: 55vw;
+  border: solid black;
+  margin-left: 1rem;
+  overflow: auto;
+}
